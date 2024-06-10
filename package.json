@@ -1,0 +1,16 @@
+{
+  "name": "odin-knights-travails",
+  "version": "1.0.0",
+  "description": "Odin JavaScript Project: Knight Travails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon-test": "npx nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
