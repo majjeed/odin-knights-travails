@@ -74,4 +74,13 @@ function knightMoves(start, end) {
 }
 
 let shortestPath = knightMoves([0, 0], [7, 7]);
-console.log(shortestPath);
+//console.log(shortestPath);
+
+function prettyPrint(arr) {
+  console.log(`You made it in ${arr.length} moves! Here is your path:`);
+  for (let el of arr) {
+    console.log(el);
+  }
+}
+
+prettyPrint(shortestPath);
